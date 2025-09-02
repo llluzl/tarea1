@@ -1,0 +1,73 @@
+.padre{
+    background-color: rgb(0, 183, 255);
+    padding: 10px;
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    /*flex-direction:column-reverse;*/
+    height: 500px;
+    flex-wrap:inherit;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+   
+
+
+}
+.padre .caja{
+    background-color: rgb(255, 0, 200);
+    padding: 10px;
+    margin: 5px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    color: blue;
+    font-size: 25px;
+    width: 200px;
+
+}
+*{margin: 10px;}
+.padre-grid{
+    background-color: rosybrown;
+    padding: 10px;
+    font-size: 25px;
+    border-color: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+}
+.padre-grid .a{
+    background-color: tomato;
+    grid-column: 1/4;
+    grid-row: 1/2;
+
+}
+.padre-grid .b{
+    background-color: rgb(71, 255, 71);
+    grid-column: 1/2;
+    grid-row: 3/2;
+
+}
+.padre-grid .c{
+    background-color: rgb(218, 71, 255);
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+.padre-grid .d{
+    background-color: rgb(71, 255, 240);
+    grid-column: 3/4;
+    grid-row: 3/2;
+
+
+}
+.padre-grid .e{
+    background-color: rgb(71, 255, 240);
+    grid-column: 4/1;
+    grid-row: 3/4 ;
+
+    
+
+
+    
+}
